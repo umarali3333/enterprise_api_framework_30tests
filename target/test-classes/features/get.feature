@@ -25,5 +25,5 @@ Then validate response time less than 5000
 
 Scenario: Invalid post id
 Given user sets API base URL
-When user sends GET request to "/posts/9999"
+When user sends GET request to "/posts/0001"
 Then validate status code is 404

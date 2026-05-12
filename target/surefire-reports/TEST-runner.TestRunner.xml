@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="13.347" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="12.847" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\mumarali\AppData\Local\Temp\surefire56224459624884813\surefirebooter-20260502220147468_3.jar C:\Users\mumarali\AppData\Local\Temp\surefire56224459624884813 2026-05-02T22-01-47_213-jvmRun1 surefire-20260502220147468_1tmp surefire_0-20260502220147468_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mumarali\AppData\Local\Temp\surefire106282867877109746\surefirebooter-20260512125941150_3.jar C:\Users\mumarali\AppData\Local\Temp\surefire106282867877109746 2026-05-12T12-59-40_830-jvmRun1 surefire-20260512125941150_1tmp surefire_0-20260512125941150_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\sotwares\enterprise_api_framework_30tests\target\test-classes;C:\sotwares\enterprise_api_framework_30tests\target\classes;C:\Users\mumarali\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\mumarali\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\mumarali\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\mumarali\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\mumarali\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\mumarali\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mumarali\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\mumarali\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\mumarali\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\mumarali\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\mumarali\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\mumarali\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\mumarali\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\mumarali\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\mumarali\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\mumarali\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\mumarali\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\mumarali\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mumarali\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\mumarali\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\mumarali\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\mumarali\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\mumarali\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\mumarali\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\mumarali\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mumarali\AppData\Local\Temp\surefire56224459624884813\surefirebooter-20260502220147468_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mumarali\AppData\Local\Temp\surefire106282867877109746\surefirebooter-20260512125941150_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-LTS"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\mumarali\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\mumarali\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\mumarali\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ServiceNow\agent-client-collector\bin;C:\Program Files\ServiceNow\agent-client-collector\embedded\bin;C:\Program Files\WindowsPowerShell\Scripts\HP.ClientScriptLibrary;C:\Users\mumarali\AppData\Local\Microsoft\WindowsApps;C:\Users\mumarali\AppData\Local\Programs\Microsoft VS Code\bin;C:\sotwares\apache-maven-3.9.12\bin;C:\Users\mumarali\AppData\Local\Programs\Git\cmd;c:\Users\mumarali\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\mumarali\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\mumarali\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\mumarali\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\ServiceNow\agent-client-collector\bin;C:\Program Files\ServiceNow\agent-client-collector\embedded\bin;C:\Program Files\WindowsPowerShell\Scripts\HP.ClientScriptLibrary;C:\Users\mumarali\AppData\Local\Microsoft\WindowsApps;C:\Users\mumarali\AppData\Local\Programs\Microsoft VS Code\bin;C:\sotwares\apache-maven-3.9.12\bin;C:\Users\mumarali\AppData\Local\Programs\Git\cmd;c:\Users\mumarali\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Delete post&quot;, &quot;DELETE API Tests&quot;](1)" classname="runner.TestRunner" time="3.789">
+  <testcase name="runScenario[&quot;Delete post&quot;, &quot;DELETE API Tests&quot;](1)" classname="runner.TestRunner" time="4.427">
     <system-out><![CDATA[
 Scenario: Delete post                          # src/test/resources/features/delete.feature:4
   Given user sets API base URL                 # steps.APISteps.setupAPI()
@@ -71,7 +71,7 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Delete another&quot;, &quot;DELETE API Tests&quot;](2)" classname="runner.TestRunner" time="0.866">
+  <testcase name="runScenario[&quot;Delete another&quot;, &quot;DELETE API Tests&quot;](2)" classname="runner.TestRunner" time="0.494">
     <system-out><![CDATA[
 Scenario: Delete another                       # src/test/resources/features/delete.feature:9
   Given user sets API base URL                 # steps.APISteps.setupAPI()
@@ -79,7 +79,7 @@ Scenario: Delete another                       # src/test/resources/features/del
   Then validate status code is 200             # steps.APISteps.validateStatus(int)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get all posts&quot;, &quot;GET API Tests&quot;](3)" classname="runner.TestRunner" time="0.622">
+  <testcase name="runScenario[&quot;Get all posts&quot;, &quot;GET API Tests&quot;](3)" classname="runner.TestRunner" time="0.36">
     <system-out><![CDATA[
 Scenario: Get all posts                   # src/test/resources/features/get.feature:4
   Given user sets API base URL            # steps.APISteps.setupAPI()
@@ -88,7 +88,7 @@ Scenario: Get all posts                   # src/test/resources/features/get.feat
   And validate response contains "title"  # steps.APISteps.validateBody(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Get post id 1&quot;, &quot;GET API Tests&quot;](4)" classname="runner.TestRunner" time="0.655">
+  <testcase name="runScenario[&quot;Get post id 1&quot;, &quot;GET API Tests&quot;](4)" classname="runner.TestRunner" time="0.279">
     <system-out><![CDATA[
 Scenario: Get post id 1                     # src/test/resources/features/get.feature:10
   Given user sets API base URL              # steps.APISteps.setupAPI()
@@ -97,7 +97,7 @@ Scenario: Get post id 1                     # src/test/resources/features/get.fe
   And validate response contains "userId"   # steps.APISteps.validateBody(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Validate response header&quot;, &quot;GET API Tests&quot;](5)" classname="runner.TestRunner" time="0.595">
+  <testcase name="runScenario[&quot;Validate response header&quot;, &quot;GET API Tests&quot;](5)" classname="runner.TestRunner" time="0.295">
     <system-out><![CDATA[
 Scenario: Validate response header        # src/test/resources/features/get.feature:16
   Given user sets API base URL            # steps.APISteps.setupAPI()
@@ -105,7 +105,7 @@ Scenario: Validate response header        # src/test/resources/features/get.feat
   Then validate header "Content-Type"     # steps.APISteps.validateHeader(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Validate response time&quot;, &quot;GET API Tests&quot;](6)" classname="runner.TestRunner" time="0.698">
+  <testcase name="runScenario[&quot;Validate response time&quot;, &quot;GET API Tests&quot;](6)" classname="runner.TestRunner" time="0.218">
     <system-out><![CDATA[
 Scenario: Validate response time             # src/test/resources/features/get.feature:21
   Given user sets API base URL               # steps.APISteps.setupAPI()
@@ -113,15 +113,15 @@ Scenario: Validate response time             # src/test/resources/features/get.f
   Then validate response time less than 5000 # steps.APISteps.validateResponseTime(int)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Invalid post id&quot;, &quot;GET API Tests&quot;](7)" classname="runner.TestRunner" time="0.549">
+  <testcase name="runScenario[&quot;Invalid post id&quot;, &quot;GET API Tests&quot;](7)" classname="runner.TestRunner" time="0.953">
     <system-out><![CDATA[
 Scenario: Invalid post id                      # src/test/resources/features/get.feature:26
   Given user sets API base URL                 # steps.APISteps.setupAPI()
-  When user sends GET request to "/posts/9999" # steps.APISteps.sendGET(java.lang.String)
+  When user sends GET request to "/posts/0001" # steps.APISteps.sendGET(java.lang.String)
   Then validate status code is 404             # steps.APISteps.validateStatus(int)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Create post&quot;, &quot;POST API Tests&quot;](8)" classname="runner.TestRunner" time="0.689">
+  <testcase name="runScenario[&quot;Create post&quot;, &quot;POST API Tests&quot;](8)" classname="runner.TestRunner" time="1.006">
     <system-out><![CDATA[
 Scenario: Create post                              # src/test/resources/features/post.feature:4
   Given user sets API base URL                     # steps.APISteps.setupAPI()
@@ -130,7 +130,7 @@ Scenario: Create post                              # src/test/resources/features
   And validate response contains "Automation Test" # steps.APISteps.validateBody(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Create second post&quot;, &quot;POST API Tests&quot;](9)" classname="runner.TestRunner" time="0.602">
+  <testcase name="runScenario[&quot;Create second post&quot;, &quot;POST API Tests&quot;](9)" classname="runner.TestRunner" time="0.456">
     <system-out><![CDATA[
 Scenario: Create second post               # src/test/resources/features/post.feature:10
   Given user sets API base URL             # steps.APISteps.setupAPI()
@@ -138,7 +138,7 @@ Scenario: Create second post               # src/test/resources/features/post.fe
   Then validate status code is 201         # steps.APISteps.validateStatus(int)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Validate response body after create&quot;, &quot;POST API Tests&quot;](10)" classname="runner.TestRunner" time="0.674">
+  <testcase name="runScenario[&quot;Validate response body after create&quot;, &quot;POST API Tests&quot;](10)" classname="runner.TestRunner" time="0.442">
     <system-out><![CDATA[
 Scenario: Validate response body after create     # src/test/resources/features/post.feature:15
   Given user sets API base URL                    # steps.APISteps.setupAPI()
@@ -146,7 +146,7 @@ Scenario: Validate response body after create     # src/test/resources/features/
   Then validate response contains "BDD Framework" # steps.APISteps.validateBody(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update post&quot;, &quot;PUT API Tests&quot;](11)" classname="runner.TestRunner" time="0.868">
+  <testcase name="runScenario[&quot;Update post&quot;, &quot;PUT API Tests&quot;](11)" classname="runner.TestRunner" time="0.94">
     <system-out><![CDATA[
 Scenario: Update post                            # src/test/resources/features/put.feature:4
   Given user sets API base URL                   # steps.APISteps.setupAPI()
@@ -155,7 +155,7 @@ Scenario: Update post                            # src/test/resources/features/p
   And validate response contains "Updated Title" # steps.APISteps.validateBody(java.lang.String)
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update again&quot;, &quot;PUT API Tests&quot;](12)" classname="runner.TestRunner" time="0.803">
+  <testcase name="runScenario[&quot;Update again&quot;, &quot;PUT API Tests&quot;](12)" classname="runner.TestRunner" time="0.476">
     <system-out><![CDATA[
 Scenario: Update again                      # src/test/resources/features/put.feature:10
   Given user sets API base URL              # steps.APISteps.setupAPI()
