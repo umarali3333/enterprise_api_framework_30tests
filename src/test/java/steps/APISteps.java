@@ -14,6 +14,7 @@ import utils.BaseAPI;
 public class APISteps {
 
     Response response;
+  
 
     @Given("user sets API base URL")
     public void setupAPI() {
@@ -32,7 +33,7 @@ public class APISteps {
     @When("user sends POST request to {string}")
     public void sendPOST(String endpoint) {
 
-        String payload = "{\"title\":\"Automation Test\",\"body\":\"BDD Framework\",\"userId\":1}";
+        String payload = "{\"title\":\"Automation Test\",\"body\":\"BDD Framework\",\"userId\":22}";
 
         response = given()
                 .header("Content-Type", "application/json")
@@ -45,7 +46,7 @@ public class APISteps {
     @When("user sends PUT request to {string}")
     public void sendPUT(String endpoint) {
 
-        String payload = "{\"id\":1,\"title\":\"Updated Title\",\"body\":\"Updated Body\",\"userId\":1}";
+        String payload = "{\"id\":1,\"title\":\"Umar Title\",\"body\":\"Updated Body\",\"userId\":22}";
 
         response = given()
                 .header("Content-Type", "application/json")
