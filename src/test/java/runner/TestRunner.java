@@ -13,6 +13,7 @@ features="src/test/resources/features",
 glue={"steps"},
 plugin={"pretty","html:target/cucumber-report.html"},
 monochrome=true
+//tags="@GET"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {
