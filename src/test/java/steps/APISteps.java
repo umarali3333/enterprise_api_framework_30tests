@@ -33,7 +33,7 @@ public class APISteps {
     @When("user sends POST request to {string}")
     public void sendPOST(String endpoint) {
 
-        String payload = "{\"title\":\"Automation Test\",\"body\":\"BDD Framework\",\"userId\":33}";
+        String payload = "{\"title\":\"Automation Test\",\"body\":\"BDD Framework Check\",\"userId\":33}";
 
         response = given()
                 .header("Content-Type", "application/json")
